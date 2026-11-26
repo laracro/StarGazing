@@ -1,6 +1,6 @@
 // Overhead service worker: keeps the app usable offline, out under a dark sky.
 // Bump VERSION whenever the shell files change.
-const VERSION = "overhead-v2";
+const VERSION = "overhead-v3";
 const SHELL = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-180.png"];
 
 self.addEventListener("install", (e) => {
